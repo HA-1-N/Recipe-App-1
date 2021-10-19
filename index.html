@@ -5,11 +5,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe App</title>
+    <title>Recipe App 1</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/icons/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/icons/themify-icons/themify-icons.css">
 </head>
 
 <body>
+
+    <div class="mobile-container">
+        <header>
+            <input type="text" name="" id="search-term">
+            <button id="search">
+                <i class="fas fa-search"></i>
+            </button>
+        </header>
+
+        <div class="fav-container">
+            <h3>Favorite Meal</h3>
+            <ul class="fav-meals" id="fav-meals">
+                <!-- <li>
+                    <img src="https://www.themealdb.com/images/ingredients/Lime.png" alt="">
+                    <span>Lime</span>
+                </li>
+
+                <li>
+                    <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1lYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+                        alt="">
+                    <span>Carbonara</span>
+                </li>
+
+                <li>
+                    <img src="https://www.themealdb.com/images/media/meals/2dsltq1560461468.jpg" alt="">
+                    <span>Lasagna</span>
+                </li>
+
+                <li>
+                    <img src="https://www.themealdb.com//images//media//meals//wvpsxx1468256321.jpg" alt="">
+                    <span>Vegetable Fried Rice</span>
+                </li>
+
+                <li>
+                    <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1lYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+                        alt="">
+                    <span>Carbonara</span>
+                </li>
+
+                <li>
+                    <img src="https://www.themealdb.com/images/media/meals/vxuyrx1511302687.jpg" alt="">
+                    <span>Lasagna</span>
+                </li> -->
+
+            </ul>
+        </div>
+
+        <div class="meals" id="meals">
+
+        </div>
+
+    </div>
+
+    <div class="popup-container hidden" id="meal-popup">
+        <div class="popup">
+            <button id="close-popup" class="close-popup">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="meal-info" id="js-meal-info">
+                <!-- <h1>Meal Title</h1>
+                <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1lYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+                    alt="">
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate assumenda illum commodi facere
+                    odit fuga ex numquam vel, cum sint laboriosam quos magnam autem, asperiores maxime fugiat
+                    blanditiis? Recusandae, voluptatem?</p>
+
+                <ul>
+                    <li>123</li>
+                    <li>123</li>
+                    <li>123</li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 
